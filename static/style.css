@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
@@ -35,9 +36,11 @@ html, body {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #555;
 }
-#main .aplayer{
-    margin: 10px 0!important;
+
+#main .aplayer {
+    margin: 10px 0 !important;
 }
+
 h1 {
     font-size: 36px;
     margin-bottom: .5em;
@@ -84,7 +87,7 @@ h4 {
 .card {
     border: none;
     padding: 50px 30px 0px;
-    border-radius: 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .container {
@@ -94,7 +97,8 @@ h4 {
 }
 
 .my-card {
-    /* box-shadow: 0px 5px 15px 5px rgb(203, 221, 232); */
+    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
+    border-radius: 10px;
 }
 
 strike {
@@ -167,6 +171,7 @@ strike {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px 0 0 10px;
 }
 
 footer p {
@@ -182,20 +187,25 @@ footer p {
     body {
         min-height: 600px;
     }
+
     h1 {
         font-size: 24px;
     }
+
     h2,
     .social .fa {
         font-size: 20px;
     }
+
     h3 {
         font-size: 16px;
     }
+
     h4,
     p {
         font-size: 14px;
     }
+
     .card {
         padding: 50px 50px 0px;
     }
@@ -220,16 +230,20 @@ footer p {
         top: 0;
         transform: translateY(0);
     }
+
     .photo-bg {
         height: 180px;
     }
+
     .card {
         padding: 20px;
     }
+
     #kaygb-blog-a,
     #kaygb-mail-a {
         display: block;
     }
+
     #kaygb-blog,
     #kaygb-mail {
         display: none;
